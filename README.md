@@ -22,7 +22,7 @@ Nessuna dipendenza o installazione necessaria. Basta un browser web.
    - Seleziona **Download ZIP**
    - Estrai la cartella
 
-2. Apri `index.html` nel browser — fatto!
+2. Apri  `CreativeBlog\html\index.html` nel browser — fatto!
 
 ## 🗂️ Struttura del progetto
 ```
