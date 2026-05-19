@@ -25,7 +25,7 @@ Nessuna dipendenza o installazione necessaria. Basta un browser web.
 2. Apri `index.html` nel browser — fatto!
 
 ## 🗂️ Struttura del progetto
-
+```
 /
 ├── index.html
 ├── page2.html
@@ -50,9 +50,10 @@ Nessuna dipendenza o installazione necessaria. Basta un browser web.
 ├── article1.jpg
 ├── article2.jpg
 └── article3.jpg
+```
 
 ## 🛠️ Tecnologie utilizzate
 
-HTML5
-CSS3 (Flexbox, animazioni, keyframes)
-Google Fonts (Inter)
+- HTML5
+- CSS3 (Flexbox, animazioni, keyframes)
+- Google Fonts (Inter)
