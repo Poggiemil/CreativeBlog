@@ -1,0 +1,542 @@
+body{
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+	color: #1f2937;
+	background-color: white;
+}
+
+.hero {
+	padding-top: 8rem;
+    padding: 8rem 0 4rem 0;
+	font-size: 1.5rem;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+
+.hero p{
+	font-size: 1.25rem;
+}
+
+nav {
+	background-color: white;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 7%;
+	padding: 30px 8.5%;
+	box-sizing: border-box;
+	z-index: 1000;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list li {
+	margin-bottom: 0;
+}
+
+.nav-list li::before {
+	content: none;
+}
+
+.nav-logo {
+	margin-right: auto;
+}
+
+.nav-link {
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#logo{
+	color: #6366f1;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.margine {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container h2 {
+	margin-top: 0;
+	text-align: left;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.article-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 0%;
+	justify-content: flex-start; 
+	gap: 30px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+article {
+	flex: 1 1 auto;
+	max-width: 380px;
+	display: flex;
+	flex-direction: column;
+
+	padding: 0 0 20px 0;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: left;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*SEZIONE PER BLOG*/
+
+.article-blog {
+	flex: 1 1 auto;
+	max-width:350px;
+	display: flex;
+	flex-direction: column;
+
+	padding: 0 0 20px 0;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: left;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-blog-internal {
+	padding: 0px 20px;
+}
+
+.article-blog-internal h3 {
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+}
+
+.subtitle-blog {
+	font-size: 13px;
+}
+
+p.subtitle-blog {
+	margin-top: 40px;
+}
+
+small.subtitle-blog {
+	font-size: 14px;
+	display: flex;
+	justify-content: left;
+	color: #666;
+	margin-bottom: 4px;
+	padding-top: 20px;
+}
+
+.hr-blog {
+	border: none;
+	background-color: lightgray;
+	height: .5px;
+}
+
+.button-blog {
+	color: #6366f1;
+}
+
+.link-blog {
+	font-weight: 700px;
+}
+
+.link-blog a {
+	padding-left: 110px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #6366f1;
+
+}
+
+/*FINE SEZIONE PER IL BLOG*/
+
+article:hover {
+    transform: translateY(-5px) ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.article-interno {
+	padding: 0px 20px;
+}
+
+.button {
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	background: #6366f1;
+	display: inline-block;
+}
+
+
+
+footer {
+	padding: 15px;
+	background-color: #f3f4f6;
+}
+
+footer p {
+	padding: 50px 0 0 0;
+}
+
+article {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* -------------------------------------------------------------------------------------------------- PAGINA 3 - ABOUT -----------------------------------------------------------------------------------------------*/
+.profile{
+	margin-top: 5%;
+	margin-bottom: 2%;
+	width: 10%;
+	height: auto;
+	border-radius: 50%;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "•";
+  color: #6366f1;
+  margin-right: 5px;
+}
+
+.page3 .hero p{
+	color: #666;
+}
+
+.contenuto {
+	margin-bottom: 10%;
+}
+
+/* -------------------------------------------------------------------------------------------------- PAGINA 4 - CONTACT -----------------------------------------------------------------------------------------------*/
+
+.page4 .hero p{
+	color: #666;
+}
+
+/* -------------------------------------------------------------------------------------------------------- ARTICLE 1 ------------------------------------------------------------------------------------------------*/
+
+.article {
+	margin-top: 8rem;
+	margin-bottom: 6%;
+}
+
+.article h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: black;
+}
+.article p li{
+	margin-top: 1rem;
+	color: #666;
+}
+
+.article img {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 63%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.p-article {
+	text-align: left;
+	display:inline-block;
+	justify-content: center;
+}
+
+.p-article h2 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: black;
+	margin-top: 2rem;
+}
+
+.menu-categoria {
+	padding: 50px 50px;
+}
+
+.button-categorie {
+	text-decoration: none;
+	color: #6366f1;
+	padding: 10px 25px;
+	background: white;
+	border: #6366f1;
+	border-style:solid;
+	border-width: 2.5px;
+	border-radius: 50px;
+}
+
+#category-active {
+	background-color: #6366f1;
+	color: white;
+}
+
+.menu-categoria a {
+	margin: 0.5%;
+}
+
+.subtitle-color {
+	color:#6366f1;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+p.subtitle {
+	display: flex;
+	justify-content: left;
+	color: #666;
+	margin-bottom: 4px;
+}
+
+.article-interno h3 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+/* ------------------------------------------ PAGE4.html  ------------------------------------------------------------------------------------------------*/
+
+form {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin: 50px 0;
+}
+
+.cella-input {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 30%;
+}
+
+label {
+	padding-bottom: 10px;
+}
+
+input,
+textarea {
+	padding: 10px;
+	color: lightgray;
+}
+
+button {
+	display: flex;
+	margin: 0 30%;
+	margin-bottom: 100px;
+	padding: 15px 20px;
+	color: white;
+	background-color: #6366f1;
+	border: none;
+	border-radius: 5px;
+}
+
+
+
+/* ----------------------------- PROVO ANIMAZIONI CON KEYFRAMES  ------------------------------------------------------------------------------------------------*/
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeIn-article {
+  from {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadein-title-index {
+	opacity: 0;
+	animation: fadeIn 1s ease forwards;
+}
+
+.fadein-subtitle-index
+{
+	opacity: 0;
+	animation: fadeIn 1s ease forwards;
+	animation-delay: 0.3s;
+}
+
+.fadein-article {
+	opacity: 0;
+	animation: fadeIn-article 0.5s ease forwards;
+}
+
+/* ----------------------------- RESPONSIVE -------------------------------------------------- */
+
+@media screen and (max-width: 1024px) {
+	.margine {
+		max-width: 960px;
+		padding: 0 16px;
+	}
+
+	.container h2 {
+		font-size: 2rem;
+	}
+
+	.article-box {
+		gap: 22px;
+	}
+
+	article,
+	.article-blog {
+		max-width: 320px;
+	}
+
+	nav {
+		padding: 18px 6%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hero {
+		padding: 4rem 0 2rem 0;
+		font-size: 1.125rem;
+	}
+
+	nav {
+		position: relative;
+		height: auto;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 12px 5%;
+	}
+
+	.nav-list {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+		width: 100%;
+		margin-top: 8px;
+	}
+
+	.nav-logo {
+		margin: 0 0 8px 0;
+		width: 100%;
+		text-align: left;
+	}
+
+	.nav-link {
+		padding: 8px 0;
+	}
+
+	.article-box {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 30px;
+	}
+
+	article,
+	.article-blog {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.article img {
+		width: 100%;
+		height: auto;
+		margin: 0 0 1rem 0;
+	}
+
+	.profile {
+		width: 30%;
+		margin: 2rem auto;
+	}
+
+	.menu-categoria {
+		padding: 20px;
+	}
+
+	.cella-input {
+		margin: 20px 8%;
+	}
+
+	button {
+		margin: 0 8% 100px 8%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 14px;
+	}
+
+	.container h2 {
+		font-size: 1.6rem;
+	}
+
+	.hero {
+		padding-top: 3rem;
+	}
+
+	nav {
+		padding: 10px 4%;
+	}
+
+	#logo {
+		font-size: 1.2rem;
+	}
+
+	.nav-link {
+		font-size: 14px;
+	}
+
+	.article h1 {
+		font-size: 2rem;
+	}
+
+	.p-article h2 {
+		font-size: 1.6rem;
+	}
+
+	.profile {
+		width: 40%;
+	}
+
+	.menu-categoria {
+		padding: 12px;
+	}
+
+	.button-categorie {
+		padding: 8px 16px;
+		font-size: 14px;
+	}
+}
