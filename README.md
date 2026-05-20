@@ -32,31 +32,33 @@ Nessuna dipendenza o installazione necessaria. Basta un browser web.
 2. Apri  `CreativeBlog\html\index.html` nel browser — fatto!
 
 ## 🗂️ Struttura del progetto
+
 ```
 /
-├── index.html
-├── page2.html
-├── page3.html
-├── page4.html
+├── html/
+│   ├── article/
+│   │   ├── article1.html
+│   │   ├── article2.html
+│   │   └── article3.html
+|   ├── categorie/
+│   │   ├── categoria1.html
+│   │   ├── categoria2.html
+│   │   └── categoria3.html
+|   ├── index.html
+|   ├── page2.html
+|   ├── page3.html
+|   └── page4.html
 ├── css/
 │   └── style.css
-├── article/
-│   ├── article1.html
-│   ├── article2.html
-│   └── article3.html
-├── categorie/
-│   ├── categoria1.html
-│   ├── categoria2.html
-│   └── categoria3.html
 └── immagini/
-├── post-1.webp
-├── post-2.webp
-├── post-3.webp
-├── profile.webp
-└── article/
-├── article1.jpg
-├── article2.jpg
-└── article3.jpg
+    ├── article/
+    │   ├── article1.jpg
+    │   ├── article2.jpg
+    │   └── article3.jpg
+    ├── post-1.webp
+    ├── post-2.webp
+    ├── post-3.webp
+    └── profile.webp
 ```
 
 ## 🛠️ Tecnologie utilizzate
