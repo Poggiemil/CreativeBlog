@@ -1,5 +1,8 @@
 # CreativeBlog
 
+👉 **Visualizza il sito online qui:**  
+[Vai al sito!](https://poggiemil.github.io/CreativeBlog/CreativeBlog/html/index.html)
+
 Sito blog statico multi-pagina realizzato in HTML e CSS puro, sviluppato come progetto scolastico.
 
 ## 📄 Pagine
@@ -12,10 +15,14 @@ Sito blog statico multi-pagina realizzato in HTML e CSS puro, sviluppato come pr
 
 ## 🚀 Come iniziare
 
-### Requisiti
+### 🌐 Modalità consigliata (online)
+Apri direttamente il sito dal browser:
+[Vai al sito!](https://poggiemil.github.io/CreativeBlog/CreativeBlog/html/index.html)
+
+### 💻 Modalità offline
 Nessuna dipendenza o installazione necessaria. Basta un browser web.
 
-### Scarica ed esegui
+#### Scarica ed esegui
 
 1. Scarica lo ZIP direttamente da GitHub:
    - Clicca sul pulsante verde **Code**
